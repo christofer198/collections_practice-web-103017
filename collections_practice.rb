@@ -38,13 +38,13 @@ def sum_array(array)
 end
 
 def add_s(array)
-	array.each_with_index.collect do |element,y| 
+	array.each_with_index.collect do |element,y|
 		if y!=1
-			element+"s" 
+			element+"s"
 		else
 			element
 		end
 	end
-	
+
 
 end
